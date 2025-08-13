@@ -152,7 +152,7 @@ COPY "public"."annotation_tag_entity" ("id", "name", "createdAt", "updatedAt") F
 --
 
 COPY "public"."user" ("id", "email", "firstName", "lastName", "password", "personalizationAnswers", "createdAt", "updatedAt", "settings", "disabled", "mfaEnabled", "mfaSecret", "mfaRecoveryCodes", "role", "lastActiveAt") FROM stdin;
-88db01db-d4e7-4be8-a6fa-634c72be2604	micjol04@gmail.com	Mico	Meco	$2a$10$D0o1mcaJ23b2rOlm5IC5vuXwVlVksbhc2ZAb6AKxHTCeY2d44.Q7y	{"version":"v4","personalization_survey_submitted_at":"2025-08-11T07:27:57.891Z","personalization_survey_n8n_version":"1.105.4","companyType":"saas"}	2025-08-11 07:16:21.325+00	2025-08-11 07:28:00.074+00	{"userActivated": false}	f	f	\N	\N	global:owner	2025-08-11
+88db01db-d4e7-4be8-a6fa-634c72be2604	micjol04@gmail.com	Mico	Meco	$2a$10$D0o1mcaJ23b2rOlm5IC5vuXwVlVksbhc2ZAb6AKxHTCeY2d44.Q7y	{"version":"v4","personalization_survey_submitted_at":"2025-08-11T07:27:57.891Z","personalization_survey_n8n_version":"1.105.4","companyType":"saas"}	2025-08-11 07:16:21.325+00	2025-08-12 06:35:10.582+00	{"userActivated": false}	f	f	\N	\N	global:owner	2025-08-12
 \.
 
 
@@ -177,6 +177,7 @@ COPY "public"."auth_provider_sync_history" ("id", "providerType", "runMode", "st
 --
 
 COPY "public"."credentials_entity" ("name", "data", "type", "createdAt", "updatedAt", "id", "isManaged") FROM stdin;
+Gmail account	U2FsdGVkX18UWB4Yc2mrD1MmSpqxwV7p1o39HGixgAnaVRltphgQTq8bTFmk5TX1wrenNhkXxtUBb2XQ8b1IrmrzJZyVR/BObq382/QbO9I5q49E3syXCh05BnMVgCrEdRmaT0hmXD3lGN4F35F2tD1Dgs7hcDe9qe7m3bDuf90tm3lxmiUJ3KPl97LyQNbgWtUBg3gQj6gGi0AnamVAuhr6UbW+4Aa6tI1NLryU/cc=	gmailOAuth2	2025-08-12 07:07:20.506+00	2025-08-12 07:13:34.554+00	nVaUfrdYYdnsg6b3	f
 \.
 
 
@@ -454,6 +455,7 @@ license.cert	eyJsaWNlbnNlS2V5IjoiLS0tLS1CRUdJTiBMSUNFTlNFIEtFWS0tLS0tXG52VnFQanB
 --
 
 COPY "public"."shared_credentials" ("credentialsId", "projectId", "role", "createdAt", "updatedAt") FROM stdin;
+nVaUfrdYYdnsg6b3	5krdVSd1JSu4TUOy	credential:owner	2025-08-12 07:07:20.506+00	2025-08-12 07:07:20.506+00
 \.
 
 
